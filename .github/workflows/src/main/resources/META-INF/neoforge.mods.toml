@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "fanscape"
+version = "1.0.0"
+displayName = "FanScape"
+description = '''Fantasy world generation: giant trees, sheer cliffs, huge rivers and glowing crystals.'''
+
+[[dependencies.fanscape]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.fanscape]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"

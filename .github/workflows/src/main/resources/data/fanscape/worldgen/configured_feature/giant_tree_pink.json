@@ -1,0 +1,26 @@
+{
+  "type": "fanscape:giant_tree",
+  "config": {
+    "trunk": {
+      "Name": "minecraft:cherry_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "leaves": {
+      "Name": "minecraft:cherry_leaves",
+      "Properties": {
+        "distance": "1",
+        "persistent": "true",
+        "waterlogged": "false"
+      }
+    },
+    "lantern": {
+      "Name": "fanscape:crystal_block"
+    },
+    "min_height": 26,
+    "max_height": 40,
+    "canopy_radius": 13,
+    "canopy_height": 8
+  }
+}

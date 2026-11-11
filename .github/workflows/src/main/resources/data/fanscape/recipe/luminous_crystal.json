@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fanscape:crystal_block"
+    }
+  ],
+  "result": {
+    "id": "fanscape:luminous_crystal",
+    "count": 4
+  }
+}

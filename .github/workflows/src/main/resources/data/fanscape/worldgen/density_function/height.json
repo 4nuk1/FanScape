@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:min",
+    "argument1": {
+      "type": "minecraft:min",
+      "argument1": "fanscape:terrain",
+      "argument2": "fanscape:river_bed"
+    },
+    "argument2": "fanscape:lake_bed"
+  }
+}

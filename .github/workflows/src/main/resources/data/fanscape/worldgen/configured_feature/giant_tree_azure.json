@@ -1,0 +1,26 @@
+{
+  "type": "fanscape:giant_tree",
+  "config": {
+    "trunk": {
+      "Name": "minecraft:dark_oak_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "leaves": {
+      "Name": "fanscape:azure_leaves",
+      "Properties": {
+        "distance": "1",
+        "persistent": "true",
+        "waterlogged": "false"
+      }
+    },
+    "lantern": {
+      "Name": "fanscape:crystal_block"
+    },
+    "min_height": 22,
+    "max_height": 34,
+    "canopy_radius": 14,
+    "canopy_height": 5
+  }
+}
