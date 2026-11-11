@@ -1,0 +1,247 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "fanscape:fanscape",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+            {
+              "biome": "fanscape:verdant_plains",
+              "parameters": {
+                "temperature": [
+                  -0.3,
+                  1
+                ],
+                "humidity": [
+                  -1,
+                  0.15
+                ],
+                "continentalness": [
+                  -0.1,
+                  1
+                ],
+                "erosion": [
+                  -1,
+                  0.22
+                ],
+                "depth": [
+                  -2.0,
+                  0.15
+                ],
+                "weirdness": [
+                  -1,
+                  1
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "fanscape:azure_forest",
+              "parameters": {
+                "temperature": [
+                  -0.3,
+                  1
+                ],
+                "humidity": [
+                  0.15,
+                  1
+                ],
+                "continentalness": [
+                  -0.1,
+                  1
+                ],
+                "erosion": [
+                  -1,
+                  0.22
+                ],
+                "depth": [
+                  -2.0,
+                  0.15
+                ],
+                "weirdness": [
+                  -1,
+                  1
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "fanscape:crystal_wastes",
+              "parameters": {
+                "temperature": [
+                  -1,
+                  -0.3
+                ],
+                "humidity": [
+                  -1,
+                  1
+                ],
+                "continentalness": [
+                  -0.1,
+                  1
+                ],
+                "erosion": [
+                  -1,
+                  0.22
+                ],
+                "depth": [
+                  -2.0,
+                  0.15
+                ],
+                "weirdness": [
+                  -1,
+                  1
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "fanscape:skyreach_plateau",
+              "parameters": {
+                "temperature": [
+                  -0.3,
+                  1
+                ],
+                "humidity": [
+                  -1,
+                  1
+                ],
+                "continentalness": [
+                  -0.1,
+                  1
+                ],
+                "erosion": [
+                  0.22,
+                  1
+                ],
+                "depth": [
+                  -2.0,
+                  0.15
+                ],
+                "weirdness": [
+                  -1,
+                  1
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "fanscape:crystal_peaks",
+              "parameters": {
+                "temperature": [
+                  -1,
+                  -0.3
+                ],
+                "humidity": [
+                  -1,
+                  1
+                ],
+                "continentalness": [
+                  -0.1,
+                  1
+                ],
+                "erosion": [
+                  0.22,
+                  1
+                ],
+                "depth": [
+                  -2.0,
+                  0.15
+                ],
+                "weirdness": [
+                  -1,
+                  1
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "fanscape:crystal_waters",
+              "parameters": {
+                "temperature": [
+                  -1,
+                  1
+                ],
+                "humidity": [
+                  -1,
+                  1
+                ],
+                "continentalness": [
+                  -1,
+                  -0.1
+                ],
+                "erosion": [
+                  -1,
+                  1
+                ],
+                "depth": [
+                  -2.0,
+                  0.1
+                ],
+                "weirdness": [
+                  -1,
+                  1
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "fanscape:crystal_caverns",
+              "parameters": {
+                "temperature": [
+                  -1,
+                  1
+                ],
+                "humidity": [
+                  -1,
+                  1
+                ],
+                "continentalness": [
+                  -1,
+                  1
+                ],
+                "erosion": [
+                  -1,
+                  1
+                ],
+                "depth": [
+                  0.2,
+                  2.0
+                ],
+                "weirdness": [
+                  -1,
+                  1
+                ],
+                "offset": 0.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:nether",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        }
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:end",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        }
+      }
+    }
+  }
+}

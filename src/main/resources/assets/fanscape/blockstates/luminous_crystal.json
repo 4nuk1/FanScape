@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "fanscape:block/luminous_crystal"
+    },
+    "facing=down": {
+      "model": "fanscape:block/luminous_crystal",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "fanscape:block/luminous_crystal",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "fanscape:block/luminous_crystal",
+      "x": 90,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fanscape:block/luminous_crystal",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fanscape:block/luminous_crystal",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "fanscape:cliff_mask",
+    "points": [
+      {
+        "location": -1.0,
+        "value": 0.0,
+        "derivative": 0.0
+      },
+      {
+        "location": 0.2,
+        "value": 0.0,
+        "derivative": 0.0
+      },
+      {
+        "location": 0.22,
+        "value": 110.0,
+        "derivative": 0.0
+      },
+      {
+        "location": 0.5,
+        "value": 125.0,
+        "derivative": 0.0
+      },
+      {
+        "location": 1.0,
+        "value": 150.0,
+        "derivative": 0.0
+      }
+    ]
+  }
+}
