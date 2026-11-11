@@ -1,0 +1,14 @@
+{
+  "block.fanscape.luminous_crystal": "Luminous Crystal",
+  "block.fanscape.crystal_block": "Crystal Block",
+  "block.fanscape.azure_leaves": "Azure Leaves",
+  "itemGroup.fanscape": "FanScape",
+  "generator.fanscape.fanscape": "FanScape",
+  "biome.fanscape.verdant_plains": "Verdant Plains",
+  "biome.fanscape.azure_forest": "Azure Forest",
+  "biome.fanscape.skyreach_plateau": "Skyreach Plateau",
+  "biome.fanscape.crystal_wastes": "Crystal Wastes",
+  "biome.fanscape.crystal_peaks": "Crystal Peaks",
+  "biome.fanscape.crystal_waters": "Crystal Waters",
+  "biome.fanscape.crystal_caverns": "Crystal Caverns"
+}
