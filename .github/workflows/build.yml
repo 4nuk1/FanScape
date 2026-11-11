@@ -1,4 +1,6 @@
-name: Build FanScape
+name: Build with Gradle
+  working-directory: ./FanScape-1.21.1-src
+  run: ./gradlew build --no-daemon
 
 on:
   push:
